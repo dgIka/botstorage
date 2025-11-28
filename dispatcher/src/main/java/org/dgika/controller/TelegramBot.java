@@ -1,6 +1,7 @@
 package org.dgika.controller;
 
 
+import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
@@ -8,10 +9,12 @@ import org.telegram.telegrambots.bots.TelegramLongPollingBot;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.objects.Update;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
-import org.telegram.telegrambots.bots.DefaultAbsSender;
+
+import javax.annotation.PostConstruct;
 
 @Component
 @Slf4j
+@RequiredArgsConstructor
 public class TelegramBot extends TelegramLongPollingBot {
 
     @Value("${bot.token}")
@@ -19,6 +22,17 @@ public class TelegramBot extends TelegramLongPollingBot {
 
     @Value("${bot.name}")
     private String name;
+
+    private final UpdateController updateController;
+
+
+
+    @PostConstruct
+    public void init() {
+        updateController.registerBot(this);
+    }
+
+
 
 
 
@@ -34,13 +48,9 @@ public class TelegramBot extends TelegramLongPollingBot {
 
     @Override
     public void onUpdateReceived(Update update) {
-        var originalMessage = update.getMessage();
-        log.debug(originalMessage.getText());
+        updateController.processUpdate(update);
 
-        var response = new SendMessage();
-        response.setChatId(update.getMessage().getChatId().toString());
-        response.setText("Hello from bot");
-        sendAnswerMessage(response);
+
 
     }
 
