@@ -1,0 +1,613 @@
+2025-12-05 23:29:12 INFO  o.d.NodeApplication:55 - Starting NodeApplication using Java 17.0.11 on DESKTOP-QVVD2JF with PID 5352 (D:\JAVA\MyJava\BotStorage\node\target\classes started by rexar.ika in D:\JAVA\MyJava\BotStorage)
+2025-12-05 23:29:12 DEBUG o.d.NodeApplication:56 - Running with Spring Boot v2.5.2, Spring v5.3.8
+2025-12-05 23:29:12 INFO  o.d.NodeApplication:659 - No active profile set, falling back to default profiles: default
+2025-12-05 23:29:12 INFO  o.s.b.w.e.t.TomcatWebServer:108 - Tomcat initialized with port(s): 8083 (http)
+2025-12-05 23:29:12 INFO  o.a.c.h.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8083"]
+2025-12-05 23:29:12 INFO  o.a.c.c.StandardService:173 - Starting service [Tomcat]
+2025-12-05 23:29:12 INFO  o.a.c.c.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2025-12-05 23:29:12 INFO  o.a.c.c.C.[.[.[/]:173 - Initializing Spring embedded WebApplicationContext
+2025-12-05 23:29:12 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext:290 - Root WebApplicationContext: initialization completed in 516 ms
+2025-12-05 23:29:13 INFO  o.a.c.h.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8083"]
+2025-12-05 23:29:13 INFO  o.s.b.w.e.t.TomcatWebServer:220 - Tomcat started on port(s): 8083 (http) with context path ''
+2025-12-05 23:29:13 INFO  o.s.a.r.c.CachingConnectionFactory:638 - Attempting to connect to: [localhost:5672]
+2025-12-05 23:29:13 INFO  o.s.a.r.l.SimpleMessageListenerContainer:1848 - Broker not available; cannot force queue declarations during start: java.net.ConnectException: Connection refused: no further information
+2025-12-05 23:29:13 INFO  o.s.a.r.c.CachingConnectionFactory:638 - Attempting to connect to: [localhost:5672]
+2025-12-05 23:29:13 INFO  o.s.a.r.c.CachingConnectionFactory:638 - Attempting to connect to: [localhost:5672]
+2025-12-05 23:29:13 INFO  o.s.a.r.l.SimpleMessageListenerContainer:1848 - Broker not available; cannot force queue declarations during start: java.net.ConnectException: Connection refused: no further information
+2025-12-05 23:29:13 INFO  o.s.a.r.c.CachingConnectionFactory:638 - Attempting to connect to: [localhost:5672]
+2025-12-05 23:29:13 INFO  o.s.a.r.c.CachingConnectionFactory:638 - Attempting to connect to: [localhost:5672]
+2025-12-05 23:29:13 INFO  o.s.a.r.l.SimpleMessageListenerContainer:1848 - Broker not available; cannot force queue declarations during start: java.net.ConnectException: Connection refused: no further information
+2025-12-05 23:29:13 INFO  o.s.a.r.c.CachingConnectionFactory:638 - Attempting to connect to: [localhost:5672]
+2025-12-05 23:29:13 INFO  o.d.NodeApplication:61 - Started NodeApplication in 1.177 seconds (JVM running for 1.562)
+2025-12-05 23:29:18 WARN  o.s.a.r.l.SimpleMessageListenerContainer:1450 - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2025-12-05 23:29:18 WARN  o.s.a.r.l.SimpleMessageListenerContainer:1450 - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2025-12-05 23:29:18 WARN  o.s.a.r.l.SimpleMessageListenerContainer:1450 - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2025-12-05 23:29:18 INFO  o.s.a.r.l.SimpleMessageListenerContainer:1429 - Restarting Consumer@1e3f0aea: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2025-12-05 23:29:18 INFO  o.s.a.r.l.SimpleMessageListenerContainer:1429 - Restarting Consumer@a85644c: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2025-12-05 23:29:18 INFO  o.s.a.r.l.SimpleMessageListenerContainer:1429 - Restarting Consumer@2a8b33ba: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2025-12-05 23:29:18 INFO  o.s.a.r.c.CachingConnectionFactory:638 - Attempting to connect to: [localhost:5672]
+2025-12-05 23:29:18 INFO  o.s.a.r.c.CachingConnectionFactory:638 - Attempting to connect to: [localhost:5672]
+2025-12-05 23:29:18 INFO  o.s.a.r.c.CachingConnectionFactory:638 - Attempting to connect to: [localhost:5672]
+2025-12-05 23:29:23 WARN  o.s.a.r.l.SimpleMessageListenerContainer:1450 - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2025-12-05 23:29:23 INFO  o.s.a.r.l.SimpleMessageListenerContainer:1429 - Restarting Consumer@36ca02a7: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2025-12-05 23:29:23 INFO  o.s.a.r.c.CachingConnectionFactory:638 - Attempting to connect to: [localhost:5672]
+2025-12-05 23:29:23 WARN  o.s.a.r.l.SimpleMessageListenerContainer:1450 - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2025-12-05 23:29:23 WARN  o.s.a.r.l.SimpleMessageListenerContainer:1450 - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2025-12-05 23:29:23 INFO  o.s.a.r.l.SimpleMessageListenerContainer:1429 - Restarting Consumer@3fce5982: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2025-12-05 23:29:23 INFO  o.s.a.r.l.SimpleMessageListenerContainer:1429 - Restarting Consumer@2a9a7c78: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2025-12-05 23:29:23 INFO  o.s.a.r.c.CachingConnectionFactory:638 - Attempting to connect to: [localhost:5672]
+2025-12-05 23:29:23 INFO  o.s.a.r.c.CachingConnectionFactory:638 - Attempting to connect to: [localhost:5672]
+2025-12-05 23:29:28 WARN  o.s.a.r.l.SimpleMessageListenerContainer:1450 - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2025-12-05 23:29:28 WARN  o.s.a.r.l.SimpleMessageListenerContainer:1450 - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2025-12-05 23:29:28 WARN  o.s.a.r.l.SimpleMessageListenerContainer:1450 - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2025-12-05 23:29:28 INFO  o.s.a.r.l.SimpleMessageListenerContainer:1429 - Restarting Consumer@5a6f0428: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2025-12-05 23:29:28 INFO  o.s.a.r.l.SimpleMessageListenerContainer:1429 - Restarting Consumer@5c225911: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2025-12-05 23:29:28 INFO  o.s.a.r.l.SimpleMessageListenerContainer:1429 - Restarting Consumer@264c207a: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2025-12-05 23:29:28 INFO  o.s.a.r.c.CachingConnectionFactory:638 - Attempting to connect to: [localhost:5672]
+2025-12-05 23:29:28 INFO  o.s.a.r.c.CachingConnectionFactory:638 - Attempting to connect to: [localhost:5672]
+2025-12-05 23:29:28 INFO  o.s.a.r.c.CachingConnectionFactory:638 - Attempting to connect to: [localhost:5672]
+2025-12-05 23:29:33 WARN  o.s.a.r.l.SimpleMessageListenerContainer:1450 - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2025-12-05 23:29:33 INFO  o.s.a.r.l.SimpleMessageListenerContainer:1429 - Restarting Consumer@3230cf09: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2025-12-05 23:29:33 INFO  o.s.a.r.c.CachingConnectionFactory:638 - Attempting to connect to: [localhost:5672]
+2025-12-05 23:29:33 WARN  o.s.a.r.l.SimpleMessageListenerContainer:1450 - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2025-12-05 23:29:33 WARN  o.s.a.r.l.SimpleMessageListenerContainer:1450 - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2025-12-05 23:29:33 INFO  o.s.a.r.l.SimpleMessageListenerContainer:1429 - Restarting Consumer@8701e97: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2025-12-05 23:29:33 INFO  o.s.a.r.l.SimpleMessageListenerContainer:1429 - Restarting Consumer@696b3fa0: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2025-12-05 23:29:33 INFO  o.s.a.r.c.CachingConnectionFactory:638 - Attempting to connect to: [localhost:5672]
+2025-12-05 23:29:33 INFO  o.s.a.r.c.CachingConnectionFactory:638 - Attempting to connect to: [localhost:5672]
+2025-12-05 23:29:38 WARN  o.s.a.r.l.SimpleMessageListenerContainer:1450 - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2025-12-05 23:29:38 INFO  o.s.a.r.l.SimpleMessageListenerContainer:1429 - Restarting Consumer@39a550ee: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2025-12-05 23:29:38 INFO  o.s.a.r.c.CachingConnectionFactory:638 - Attempting to connect to: [localhost:5672]
+2025-12-05 23:29:38 WARN  o.s.a.r.l.SimpleMessageListenerContainer:1450 - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2025-12-05 23:29:38 WARN  o.s.a.r.l.SimpleMessageListenerContainer:1450 - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2025-12-05 23:29:38 INFO  o.s.a.r.l.SimpleMessageListenerContainer:1429 - Restarting Consumer@5830a9: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2025-12-05 23:29:38 INFO  o.s.a.r.l.SimpleMessageListenerContainer:1429 - Restarting Consumer@2beb723b: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2025-12-05 23:29:38 INFO  o.s.a.r.c.CachingConnectionFactory:638 - Attempting to connect to: [localhost:5672]
+2025-12-05 23:29:38 INFO  o.s.a.r.c.CachingConnectionFactory:638 - Attempting to connect to: [localhost:5672]
+2025-12-05 23:29:43 WARN  o.s.a.r.l.SimpleMessageListenerContainer:1450 - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2025-12-05 23:29:43 INFO  o.s.a.r.l.SimpleMessageListenerContainer:1429 - Restarting Consumer@613df77b: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2025-12-05 23:29:43 INFO  o.s.a.r.c.CachingConnectionFactory:638 - Attempting to connect to: [localhost:5672]
+2025-12-05 23:29:44 WARN  o.s.a.r.l.SimpleMessageListenerContainer:1450 - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2025-12-05 23:29:44 WARN  o.s.a.r.l.SimpleMessageListenerContainer:1450 - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2025-12-05 23:29:44 INFO  o.s.a.r.l.SimpleMessageListenerContainer:1429 - Restarting Consumer@f7189a2: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2025-12-05 23:29:44 INFO  o.s.a.r.l.SimpleMessageListenerContainer:1429 - Restarting Consumer@71f39cb6: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2025-12-05 23:29:44 INFO  o.s.a.r.c.CachingConnectionFactory:638 - Attempting to connect to: [localhost:5672]
+2025-12-05 23:29:44 INFO  o.s.a.r.c.CachingConnectionFactory:638 - Attempting to connect to: [localhost:5672]
+2025-12-05 23:29:48 WARN  o.s.a.r.l.SimpleMessageListenerContainer:1450 - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2025-12-05 23:29:48 INFO  o.s.a.r.l.SimpleMessageListenerContainer:1429 - Restarting Consumer@418f9355: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2025-12-05 23:29:48 INFO  o.s.a.r.c.CachingConnectionFactory:638 - Attempting to connect to: [localhost:5672]
+2025-12-05 23:29:49 WARN  o.s.a.r.l.SimpleMessageListenerContainer:1450 - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2025-12-05 23:29:49 WARN  o.s.a.r.l.SimpleMessageListenerContainer:1450 - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2025-12-05 23:29:49 INFO  o.s.a.r.l.SimpleMessageListenerContainer:1429 - Restarting Consumer@1309fcaa: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2025-12-05 23:29:49 INFO  o.s.a.r.l.SimpleMessageListenerContainer:1429 - Restarting Consumer@ca5dbb2: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2025-12-05 23:29:49 INFO  o.s.a.r.c.CachingConnectionFactory:638 - Attempting to connect to: [localhost:5672]
+2025-12-05 23:29:49 INFO  o.s.a.r.c.CachingConnectionFactory:638 - Attempting to connect to: [localhost:5672]
+2025-12-05 23:29:53 WARN  o.s.a.r.l.SimpleMessageListenerContainer:1450 - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2025-12-05 23:29:53 INFO  o.s.a.r.l.SimpleMessageListenerContainer:1429 - Restarting Consumer@2def66c3: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2025-12-05 23:29:53 INFO  o.s.a.r.c.CachingConnectionFactory:638 - Attempting to connect to: [localhost:5672]
+2025-12-05 23:29:54 WARN  o.s.a.r.l.SimpleMessageListenerContainer:1450 - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2025-12-05 23:29:54 WARN  o.s.a.r.l.SimpleMessageListenerContainer:1450 - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2025-12-05 23:29:54 INFO  o.s.a.r.l.SimpleMessageListenerContainer:1429 - Restarting Consumer@20bd5772: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2025-12-05 23:29:54 INFO  o.s.a.r.l.SimpleMessageListenerContainer:1429 - Restarting Consumer@66ae3072: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2025-12-05 23:29:54 INFO  o.s.a.r.c.CachingConnectionFactory:638 - Attempting to connect to: [localhost:5672]
+2025-12-05 23:29:54 INFO  o.s.a.r.c.CachingConnectionFactory:638 - Attempting to connect to: [localhost:5672]
+2025-12-05 23:29:59 WARN  o.s.a.r.l.SimpleMessageListenerContainer:1450 - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2025-12-05 23:29:59 INFO  o.s.a.r.l.SimpleMessageListenerContainer:1429 - Restarting Consumer@666c77eb: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2025-12-05 23:29:59 INFO  o.s.a.r.c.CachingConnectionFactory:638 - Attempting to connect to: [localhost:5672]
+2025-12-05 23:29:59 WARN  o.s.a.r.l.SimpleMessageListenerContainer:1450 - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2025-12-05 23:29:59 WARN  o.s.a.r.l.SimpleMessageListenerContainer:1450 - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2025-12-05 23:29:59 INFO  o.s.a.r.l.SimpleMessageListenerContainer:1429 - Restarting Consumer@3e266fd0: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2025-12-05 23:29:59 INFO  o.s.a.r.l.SimpleMessageListenerContainer:1429 - Restarting Consumer@7df48b0e: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2025-12-05 23:29:59 INFO  o.s.a.r.c.CachingConnectionFactory:638 - Attempting to connect to: [localhost:5672]
+2025-12-05 23:29:59 INFO  o.s.a.r.c.CachingConnectionFactory:638 - Attempting to connect to: [localhost:5672]
+2025-12-05 23:30:04 INFO  o.s.a.r.l.SimpleMessageListenerContainer:1429 - Restarting Consumer@132c2259: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2025-12-05 23:30:04 INFO  o.s.a.r.c.CachingConnectionFactory:638 - Attempting to connect to: [localhost:5672]
+2025-12-05 23:30:04 INFO  o.s.a.r.c.CachingConnectionFactory:589 - Created new connection: rabbitConnectionFactory#119b0892:33/SimpleConnection@7bc45a0f [delegate=amqp://userok@127.0.0.1:5672/, localPort= 64725]
+2025-12-05 23:30:04 WARN  o.s.a.r.l.BlockingQueueConsumer:736 - Failed to declare queue: photo_message_update
+2025-12-05 23:30:04 WARN  o.s.a.r.l.BlockingQueueConsumer:670 - Queue declaration failed; retries left=3
+org.springframework.amqp.rabbit.listener.BlockingQueueConsumer$DeclarationException: Failed to declare queue(s):[photo_message_update]
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.attemptPassiveDeclarations(BlockingQueueConsumer.java:743)
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.passiveDeclarations(BlockingQueueConsumer.java:620)
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.start(BlockingQueueConsumer.java:607)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1348)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1193)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.io.IOException: null
+	at com.rabbitmq.client.impl.AMQChannel.wrap(AMQChannel.java:129)
+	at com.rabbitmq.client.impl.AMQChannel.wrap(AMQChannel.java:125)
+	at com.rabbitmq.client.impl.AMQChannel.exnWrappingRpc(AMQChannel.java:147)
+	at com.rabbitmq.client.impl.ChannelN.queueDeclarePassive(ChannelN.java:1012)
+	at com.rabbitmq.client.impl.ChannelN.queueDeclarePassive(ChannelN.java:46)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory$CachedChannelInvocationHandler.invoke(CachingConnectionFactory.java:1157)
+	at jdk.proxy2/jdk.proxy2.$Proxy65.queueDeclarePassive(Unknown Source)
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.attemptPassiveDeclarations(BlockingQueueConsumer.java:721)
+	... 5 common frames omitted
+Caused by: com.rabbitmq.client.ShutdownSignalException: channel error; protocol method: #method<channel.close>(reply-code=404, reply-text=NOT_FOUND - no queue 'photo_message_update' in vhost '/', class-id=50, method-id=10)
+	at com.rabbitmq.utility.ValueOrException.getValue(ValueOrException.java:66)
+	at com.rabbitmq.utility.BlockingValueOrException.uninterruptibleGetValue(BlockingValueOrException.java:36)
+	at com.rabbitmq.client.impl.AMQChannel$BlockingRpcContinuation.getReply(AMQChannel.java:502)
+	at com.rabbitmq.client.impl.AMQChannel.privateRpc(AMQChannel.java:293)
+	at com.rabbitmq.client.impl.AMQChannel.exnWrappingRpc(AMQChannel.java:141)
+	... 14 common frames omitted
+Caused by: com.rabbitmq.client.ShutdownSignalException: channel error; protocol method: #method<channel.close>(reply-code=404, reply-text=NOT_FOUND - no queue 'photo_message_update' in vhost '/', class-id=50, method-id=10)
+	at com.rabbitmq.client.impl.ChannelN.asyncShutdown(ChannelN.java:517)
+	at com.rabbitmq.client.impl.ChannelN.processAsync(ChannelN.java:341)
+	at com.rabbitmq.client.impl.AMQChannel.handleCompleteInboundCommand(AMQChannel.java:182)
+	at com.rabbitmq.client.impl.AMQChannel.handleFrame(AMQChannel.java:114)
+	at com.rabbitmq.client.impl.AMQConnection.readFrame(AMQConnection.java:739)
+	at com.rabbitmq.client.impl.AMQConnection.access$300(AMQConnection.java:47)
+	at com.rabbitmq.client.impl.AMQConnection$MainLoop.run(AMQConnection.java:666)
+	... 1 common frames omitted
+2025-12-05 23:30:04 INFO  o.s.a.r.l.SimpleMessageListenerContainer:1429 - Restarting Consumer@38e675aa: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2025-12-05 23:30:04 INFO  o.s.a.r.l.SimpleMessageListenerContainer:1429 - Restarting Consumer@745fadd0: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2025-12-05 23:30:04 WARN  o.s.a.r.l.BlockingQueueConsumer:736 - Failed to declare queue: doc_message_update
+2025-12-05 23:30:04 WARN  o.s.a.r.l.BlockingQueueConsumer:670 - Queue declaration failed; retries left=3
+org.springframework.amqp.rabbit.listener.BlockingQueueConsumer$DeclarationException: Failed to declare queue(s):[doc_message_update]
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.attemptPassiveDeclarations(BlockingQueueConsumer.java:743)
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.passiveDeclarations(BlockingQueueConsumer.java:620)
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.start(BlockingQueueConsumer.java:607)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1348)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1193)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.io.IOException: null
+	at com.rabbitmq.client.impl.AMQChannel.wrap(AMQChannel.java:129)
+	at com.rabbitmq.client.impl.AMQChannel.wrap(AMQChannel.java:125)
+	at com.rabbitmq.client.impl.AMQChannel.exnWrappingRpc(AMQChannel.java:147)
+	at com.rabbitmq.client.impl.ChannelN.queueDeclarePassive(ChannelN.java:1012)
+	at com.rabbitmq.client.impl.ChannelN.queueDeclarePassive(ChannelN.java:46)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory$CachedChannelInvocationHandler.invoke(CachingConnectionFactory.java:1157)
+	at jdk.proxy2/jdk.proxy2.$Proxy65.queueDeclarePassive(Unknown Source)
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.attemptPassiveDeclarations(BlockingQueueConsumer.java:721)
+	... 5 common frames omitted
+Caused by: com.rabbitmq.client.ShutdownSignalException: channel error; protocol method: #method<channel.close>(reply-code=404, reply-text=NOT_FOUND - no queue 'doc_message_update' in vhost '/', class-id=50, method-id=10)
+	at com.rabbitmq.utility.ValueOrException.getValue(ValueOrException.java:66)
+	at com.rabbitmq.utility.BlockingValueOrException.uninterruptibleGetValue(BlockingValueOrException.java:36)
+	at com.rabbitmq.client.impl.AMQChannel$BlockingRpcContinuation.getReply(AMQChannel.java:502)
+	at com.rabbitmq.client.impl.AMQChannel.privateRpc(AMQChannel.java:293)
+	at com.rabbitmq.client.impl.AMQChannel.exnWrappingRpc(AMQChannel.java:141)
+	... 14 common frames omitted
+Caused by: com.rabbitmq.client.ShutdownSignalException: channel error; protocol method: #method<channel.close>(reply-code=404, reply-text=NOT_FOUND - no queue 'doc_message_update' in vhost '/', class-id=50, method-id=10)
+	at com.rabbitmq.client.impl.ChannelN.asyncShutdown(ChannelN.java:517)
+	at com.rabbitmq.client.impl.ChannelN.processAsync(ChannelN.java:341)
+	at com.rabbitmq.client.impl.AMQChannel.handleCompleteInboundCommand(AMQChannel.java:182)
+	at com.rabbitmq.client.impl.AMQChannel.handleFrame(AMQChannel.java:114)
+	at com.rabbitmq.client.impl.AMQConnection.readFrame(AMQConnection.java:739)
+	at com.rabbitmq.client.impl.AMQConnection.access$300(AMQConnection.java:47)
+	at com.rabbitmq.client.impl.AMQConnection$MainLoop.run(AMQConnection.java:666)
+	... 1 common frames omitted
+2025-12-05 23:30:04 DEBUG o.d.s.i.ConsumerServiceImpl:26 - NODE: Text message is received
+2025-12-05 23:30:09 WARN  o.s.a.r.l.BlockingQueueConsumer:736 - Failed to declare queue: photo_message_update
+2025-12-05 23:30:09 WARN  o.s.a.r.l.BlockingQueueConsumer:670 - Queue declaration failed; retries left=2
+org.springframework.amqp.rabbit.listener.BlockingQueueConsumer$DeclarationException: Failed to declare queue(s):[photo_message_update]
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.attemptPassiveDeclarations(BlockingQueueConsumer.java:743)
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.passiveDeclarations(BlockingQueueConsumer.java:620)
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.start(BlockingQueueConsumer.java:607)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1348)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1193)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.io.IOException: null
+	at com.rabbitmq.client.impl.AMQChannel.wrap(AMQChannel.java:129)
+	at com.rabbitmq.client.impl.AMQChannel.wrap(AMQChannel.java:125)
+	at com.rabbitmq.client.impl.AMQChannel.exnWrappingRpc(AMQChannel.java:147)
+	at com.rabbitmq.client.impl.ChannelN.queueDeclarePassive(ChannelN.java:1012)
+	at com.rabbitmq.client.impl.ChannelN.queueDeclarePassive(ChannelN.java:46)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory$CachedChannelInvocationHandler.invoke(CachingConnectionFactory.java:1157)
+	at jdk.proxy2/jdk.proxy2.$Proxy65.queueDeclarePassive(Unknown Source)
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.attemptPassiveDeclarations(BlockingQueueConsumer.java:721)
+	... 5 common frames omitted
+Caused by: com.rabbitmq.client.ShutdownSignalException: channel error; protocol method: #method<channel.close>(reply-code=404, reply-text=NOT_FOUND - no queue 'photo_message_update' in vhost '/', class-id=50, method-id=10)
+	at com.rabbitmq.utility.ValueOrException.getValue(ValueOrException.java:66)
+	at com.rabbitmq.utility.BlockingValueOrException.uninterruptibleGetValue(BlockingValueOrException.java:36)
+	at com.rabbitmq.client.impl.AMQChannel$BlockingRpcContinuation.getReply(AMQChannel.java:502)
+	at com.rabbitmq.client.impl.AMQChannel.privateRpc(AMQChannel.java:293)
+	at com.rabbitmq.client.impl.AMQChannel.exnWrappingRpc(AMQChannel.java:141)
+	... 14 common frames omitted
+Caused by: com.rabbitmq.client.ShutdownSignalException: channel error; protocol method: #method<channel.close>(reply-code=404, reply-text=NOT_FOUND - no queue 'photo_message_update' in vhost '/', class-id=50, method-id=10)
+	at com.rabbitmq.client.impl.ChannelN.asyncShutdown(ChannelN.java:517)
+	at com.rabbitmq.client.impl.ChannelN.processAsync(ChannelN.java:341)
+	at com.rabbitmq.client.impl.AMQChannel.handleCompleteInboundCommand(AMQChannel.java:182)
+	at com.rabbitmq.client.impl.AMQChannel.handleFrame(AMQChannel.java:114)
+	at com.rabbitmq.client.impl.AMQConnection.readFrame(AMQConnection.java:739)
+	at com.rabbitmq.client.impl.AMQConnection.access$300(AMQConnection.java:47)
+	at com.rabbitmq.client.impl.AMQConnection$MainLoop.run(AMQConnection.java:666)
+	... 1 common frames omitted
+2025-12-05 23:30:09 WARN  o.s.a.r.l.BlockingQueueConsumer:736 - Failed to declare queue: doc_message_update
+2025-12-05 23:30:09 WARN  o.s.a.r.l.BlockingQueueConsumer:670 - Queue declaration failed; retries left=2
+org.springframework.amqp.rabbit.listener.BlockingQueueConsumer$DeclarationException: Failed to declare queue(s):[doc_message_update]
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.attemptPassiveDeclarations(BlockingQueueConsumer.java:743)
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.passiveDeclarations(BlockingQueueConsumer.java:620)
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.start(BlockingQueueConsumer.java:607)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1348)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1193)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.io.IOException: null
+	at com.rabbitmq.client.impl.AMQChannel.wrap(AMQChannel.java:129)
+	at com.rabbitmq.client.impl.AMQChannel.wrap(AMQChannel.java:125)
+	at com.rabbitmq.client.impl.AMQChannel.exnWrappingRpc(AMQChannel.java:147)
+	at com.rabbitmq.client.impl.ChannelN.queueDeclarePassive(ChannelN.java:1012)
+	at com.rabbitmq.client.impl.ChannelN.queueDeclarePassive(ChannelN.java:46)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory$CachedChannelInvocationHandler.invoke(CachingConnectionFactory.java:1157)
+	at jdk.proxy2/jdk.proxy2.$Proxy65.queueDeclarePassive(Unknown Source)
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.attemptPassiveDeclarations(BlockingQueueConsumer.java:721)
+	... 5 common frames omitted
+Caused by: com.rabbitmq.client.ShutdownSignalException: channel error; protocol method: #method<channel.close>(reply-code=404, reply-text=NOT_FOUND - no queue 'doc_message_update' in vhost '/', class-id=50, method-id=10)
+	at com.rabbitmq.utility.ValueOrException.getValue(ValueOrException.java:66)
+	at com.rabbitmq.utility.BlockingValueOrException.uninterruptibleGetValue(BlockingValueOrException.java:36)
+	at com.rabbitmq.client.impl.AMQChannel$BlockingRpcContinuation.getReply(AMQChannel.java:502)
+	at com.rabbitmq.client.impl.AMQChannel.privateRpc(AMQChannel.java:293)
+	at com.rabbitmq.client.impl.AMQChannel.exnWrappingRpc(AMQChannel.java:141)
+	... 14 common frames omitted
+Caused by: com.rabbitmq.client.ShutdownSignalException: channel error; protocol method: #method<channel.close>(reply-code=404, reply-text=NOT_FOUND - no queue 'doc_message_update' in vhost '/', class-id=50, method-id=10)
+	at com.rabbitmq.client.impl.ChannelN.asyncShutdown(ChannelN.java:517)
+	at com.rabbitmq.client.impl.ChannelN.processAsync(ChannelN.java:341)
+	at com.rabbitmq.client.impl.AMQChannel.handleCompleteInboundCommand(AMQChannel.java:182)
+	at com.rabbitmq.client.impl.AMQChannel.handleFrame(AMQChannel.java:114)
+	at com.rabbitmq.client.impl.AMQConnection.readFrame(AMQConnection.java:739)
+	at com.rabbitmq.client.impl.AMQConnection.access$300(AMQConnection.java:47)
+	at com.rabbitmq.client.impl.AMQConnection$MainLoop.run(AMQConnection.java:666)
+	... 1 common frames omitted
+2025-12-05 23:30:14 WARN  o.s.a.r.l.BlockingQueueConsumer:736 - Failed to declare queue: photo_message_update
+2025-12-05 23:30:14 WARN  o.s.a.r.l.BlockingQueueConsumer:670 - Queue declaration failed; retries left=1
+org.springframework.amqp.rabbit.listener.BlockingQueueConsumer$DeclarationException: Failed to declare queue(s):[photo_message_update]
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.attemptPassiveDeclarations(BlockingQueueConsumer.java:743)
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.passiveDeclarations(BlockingQueueConsumer.java:620)
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.start(BlockingQueueConsumer.java:607)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1348)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1193)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.io.IOException: null
+	at com.rabbitmq.client.impl.AMQChannel.wrap(AMQChannel.java:129)
+	at com.rabbitmq.client.impl.AMQChannel.wrap(AMQChannel.java:125)
+	at com.rabbitmq.client.impl.AMQChannel.exnWrappingRpc(AMQChannel.java:147)
+	at com.rabbitmq.client.impl.ChannelN.queueDeclarePassive(ChannelN.java:1012)
+	at com.rabbitmq.client.impl.ChannelN.queueDeclarePassive(ChannelN.java:46)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory$CachedChannelInvocationHandler.invoke(CachingConnectionFactory.java:1157)
+	at jdk.proxy2/jdk.proxy2.$Proxy65.queueDeclarePassive(Unknown Source)
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.attemptPassiveDeclarations(BlockingQueueConsumer.java:721)
+	... 5 common frames omitted
+Caused by: com.rabbitmq.client.ShutdownSignalException: channel error; protocol method: #method<channel.close>(reply-code=404, reply-text=NOT_FOUND - no queue 'photo_message_update' in vhost '/', class-id=50, method-id=10)
+	at com.rabbitmq.utility.ValueOrException.getValue(ValueOrException.java:66)
+	at com.rabbitmq.utility.BlockingValueOrException.uninterruptibleGetValue(BlockingValueOrException.java:36)
+	at com.rabbitmq.client.impl.AMQChannel$BlockingRpcContinuation.getReply(AMQChannel.java:502)
+	at com.rabbitmq.client.impl.AMQChannel.privateRpc(AMQChannel.java:293)
+	at com.rabbitmq.client.impl.AMQChannel.exnWrappingRpc(AMQChannel.java:141)
+	... 14 common frames omitted
+Caused by: com.rabbitmq.client.ShutdownSignalException: channel error; protocol method: #method<channel.close>(reply-code=404, reply-text=NOT_FOUND - no queue 'photo_message_update' in vhost '/', class-id=50, method-id=10)
+	at com.rabbitmq.client.impl.ChannelN.asyncShutdown(ChannelN.java:517)
+	at com.rabbitmq.client.impl.ChannelN.processAsync(ChannelN.java:341)
+	at com.rabbitmq.client.impl.AMQChannel.handleCompleteInboundCommand(AMQChannel.java:182)
+	at com.rabbitmq.client.impl.AMQChannel.handleFrame(AMQChannel.java:114)
+	at com.rabbitmq.client.impl.AMQConnection.readFrame(AMQConnection.java:739)
+	at com.rabbitmq.client.impl.AMQConnection.access$300(AMQConnection.java:47)
+	at com.rabbitmq.client.impl.AMQConnection$MainLoop.run(AMQConnection.java:666)
+	... 1 common frames omitted
+2025-12-05 23:30:14 WARN  o.s.a.r.l.BlockingQueueConsumer:736 - Failed to declare queue: doc_message_update
+2025-12-05 23:30:14 WARN  o.s.a.r.l.BlockingQueueConsumer:670 - Queue declaration failed; retries left=1
+org.springframework.amqp.rabbit.listener.BlockingQueueConsumer$DeclarationException: Failed to declare queue(s):[doc_message_update]
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.attemptPassiveDeclarations(BlockingQueueConsumer.java:743)
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.passiveDeclarations(BlockingQueueConsumer.java:620)
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.start(BlockingQueueConsumer.java:607)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1348)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1193)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.io.IOException: null
+	at com.rabbitmq.client.impl.AMQChannel.wrap(AMQChannel.java:129)
+	at com.rabbitmq.client.impl.AMQChannel.wrap(AMQChannel.java:125)
+	at com.rabbitmq.client.impl.AMQChannel.exnWrappingRpc(AMQChannel.java:147)
+	at com.rabbitmq.client.impl.ChannelN.queueDeclarePassive(ChannelN.java:1012)
+	at com.rabbitmq.client.impl.ChannelN.queueDeclarePassive(ChannelN.java:46)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory$CachedChannelInvocationHandler.invoke(CachingConnectionFactory.java:1157)
+	at jdk.proxy2/jdk.proxy2.$Proxy65.queueDeclarePassive(Unknown Source)
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.attemptPassiveDeclarations(BlockingQueueConsumer.java:721)
+	... 5 common frames omitted
+Caused by: com.rabbitmq.client.ShutdownSignalException: channel error; protocol method: #method<channel.close>(reply-code=404, reply-text=NOT_FOUND - no queue 'doc_message_update' in vhost '/', class-id=50, method-id=10)
+	at com.rabbitmq.utility.ValueOrException.getValue(ValueOrException.java:66)
+	at com.rabbitmq.utility.BlockingValueOrException.uninterruptibleGetValue(BlockingValueOrException.java:36)
+	at com.rabbitmq.client.impl.AMQChannel$BlockingRpcContinuation.getReply(AMQChannel.java:502)
+	at com.rabbitmq.client.impl.AMQChannel.privateRpc(AMQChannel.java:293)
+	at com.rabbitmq.client.impl.AMQChannel.exnWrappingRpc(AMQChannel.java:141)
+	... 14 common frames omitted
+Caused by: com.rabbitmq.client.ShutdownSignalException: channel error; protocol method: #method<channel.close>(reply-code=404, reply-text=NOT_FOUND - no queue 'doc_message_update' in vhost '/', class-id=50, method-id=10)
+	at com.rabbitmq.client.impl.ChannelN.asyncShutdown(ChannelN.java:517)
+	at com.rabbitmq.client.impl.ChannelN.processAsync(ChannelN.java:341)
+	at com.rabbitmq.client.impl.AMQChannel.handleCompleteInboundCommand(AMQChannel.java:182)
+	at com.rabbitmq.client.impl.AMQChannel.handleFrame(AMQChannel.java:114)
+	at com.rabbitmq.client.impl.AMQConnection.readFrame(AMQConnection.java:739)
+	at com.rabbitmq.client.impl.AMQConnection.access$300(AMQConnection.java:47)
+	at com.rabbitmq.client.impl.AMQConnection$MainLoop.run(AMQConnection.java:666)
+	... 1 common frames omitted
+2025-12-05 23:30:19 WARN  o.s.a.r.l.BlockingQueueConsumer:736 - Failed to declare queue: photo_message_update
+2025-12-05 23:30:19 ERROR o.s.a.r.l.SimpleMessageListenerContainer:1205 - Consumer threw missing queues exception, fatal=true
+org.springframework.amqp.rabbit.listener.QueuesNotAvailableException: Cannot prepare queue for listener. Either the queue doesn't exist or the broker will not allow us to use it.
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.handleDeclarationException(BlockingQueueConsumer.java:693)
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.passiveDeclarations(BlockingQueueConsumer.java:627)
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.start(BlockingQueueConsumer.java:607)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1348)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1193)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: org.springframework.amqp.rabbit.listener.BlockingQueueConsumer$DeclarationException: Failed to declare queue(s):[photo_message_update]
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.attemptPassiveDeclarations(BlockingQueueConsumer.java:743)
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.passiveDeclarations(BlockingQueueConsumer.java:620)
+	... 4 common frames omitted
+Caused by: java.io.IOException: null
+	at com.rabbitmq.client.impl.AMQChannel.wrap(AMQChannel.java:129)
+	at com.rabbitmq.client.impl.AMQChannel.wrap(AMQChannel.java:125)
+	at com.rabbitmq.client.impl.AMQChannel.exnWrappingRpc(AMQChannel.java:147)
+	at com.rabbitmq.client.impl.ChannelN.queueDeclarePassive(ChannelN.java:1012)
+	at com.rabbitmq.client.impl.ChannelN.queueDeclarePassive(ChannelN.java:46)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory$CachedChannelInvocationHandler.invoke(CachingConnectionFactory.java:1157)
+	at jdk.proxy2/jdk.proxy2.$Proxy65.queueDeclarePassive(Unknown Source)
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.attemptPassiveDeclarations(BlockingQueueConsumer.java:721)
+	... 5 common frames omitted
+Caused by: com.rabbitmq.client.ShutdownSignalException: channel error; protocol method: #method<channel.close>(reply-code=404, reply-text=NOT_FOUND - no queue 'photo_message_update' in vhost '/', class-id=50, method-id=10)
+	at com.rabbitmq.utility.ValueOrException.getValue(ValueOrException.java:66)
+	at com.rabbitmq.utility.BlockingValueOrException.uninterruptibleGetValue(BlockingValueOrException.java:36)
+	at com.rabbitmq.client.impl.AMQChannel$BlockingRpcContinuation.getReply(AMQChannel.java:502)
+	at com.rabbitmq.client.impl.AMQChannel.privateRpc(AMQChannel.java:293)
+	at com.rabbitmq.client.impl.AMQChannel.exnWrappingRpc(AMQChannel.java:141)
+	... 14 common frames omitted
+Caused by: com.rabbitmq.client.ShutdownSignalException: channel error; protocol method: #method<channel.close>(reply-code=404, reply-text=NOT_FOUND - no queue 'photo_message_update' in vhost '/', class-id=50, method-id=10)
+	at com.rabbitmq.client.impl.ChannelN.asyncShutdown(ChannelN.java:517)
+	at com.rabbitmq.client.impl.ChannelN.processAsync(ChannelN.java:341)
+	at com.rabbitmq.client.impl.AMQChannel.handleCompleteInboundCommand(AMQChannel.java:182)
+	at com.rabbitmq.client.impl.AMQChannel.handleFrame(AMQChannel.java:114)
+	at com.rabbitmq.client.impl.AMQConnection.readFrame(AMQConnection.java:739)
+	at com.rabbitmq.client.impl.AMQConnection.access$300(AMQConnection.java:47)
+	at com.rabbitmq.client.impl.AMQConnection$MainLoop.run(AMQConnection.java:666)
+	... 1 common frames omitted
+2025-12-05 23:30:19 ERROR o.s.a.r.l.SimpleMessageListenerContainer:1408 - Stopping container from aborted consumer
+2025-12-05 23:30:19 INFO  o.s.a.r.l.SimpleMessageListenerContainer:634 - Waiting for workers to finish.
+2025-12-05 23:30:19 INFO  o.s.a.r.l.SimpleMessageListenerContainer:637 - Successfully waited for workers to finish.
+2025-12-05 23:30:19 WARN  o.s.a.r.l.BlockingQueueConsumer:736 - Failed to declare queue: doc_message_update
+2025-12-05 23:30:19 ERROR o.s.a.r.l.SimpleMessageListenerContainer:1205 - Consumer threw missing queues exception, fatal=true
+org.springframework.amqp.rabbit.listener.QueuesNotAvailableException: Cannot prepare queue for listener. Either the queue doesn't exist or the broker will not allow us to use it.
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.handleDeclarationException(BlockingQueueConsumer.java:693)
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.passiveDeclarations(BlockingQueueConsumer.java:627)
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.start(BlockingQueueConsumer.java:607)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1348)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1193)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: org.springframework.amqp.rabbit.listener.BlockingQueueConsumer$DeclarationException: Failed to declare queue(s):[doc_message_update]
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.attemptPassiveDeclarations(BlockingQueueConsumer.java:743)
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.passiveDeclarations(BlockingQueueConsumer.java:620)
+	... 4 common frames omitted
+Caused by: java.io.IOException: null
+	at com.rabbitmq.client.impl.AMQChannel.wrap(AMQChannel.java:129)
+	at com.rabbitmq.client.impl.AMQChannel.wrap(AMQChannel.java:125)
+	at com.rabbitmq.client.impl.AMQChannel.exnWrappingRpc(AMQChannel.java:147)
+	at com.rabbitmq.client.impl.ChannelN.queueDeclarePassive(ChannelN.java:1012)
+	at com.rabbitmq.client.impl.ChannelN.queueDeclarePassive(ChannelN.java:46)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory$CachedChannelInvocationHandler.invoke(CachingConnectionFactory.java:1157)
+	at jdk.proxy2/jdk.proxy2.$Proxy65.queueDeclarePassive(Unknown Source)
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.attemptPassiveDeclarations(BlockingQueueConsumer.java:721)
+	... 5 common frames omitted
+Caused by: com.rabbitmq.client.ShutdownSignalException: channel error; protocol method: #method<channel.close>(reply-code=404, reply-text=NOT_FOUND - no queue 'doc_message_update' in vhost '/', class-id=50, method-id=10)
+	at com.rabbitmq.utility.ValueOrException.getValue(ValueOrException.java:66)
+	at com.rabbitmq.utility.BlockingValueOrException.uninterruptibleGetValue(BlockingValueOrException.java:36)
+	at com.rabbitmq.client.impl.AMQChannel$BlockingRpcContinuation.getReply(AMQChannel.java:502)
+	at com.rabbitmq.client.impl.AMQChannel.privateRpc(AMQChannel.java:293)
+	at com.rabbitmq.client.impl.AMQChannel.exnWrappingRpc(AMQChannel.java:141)
+	... 14 common frames omitted
+Caused by: com.rabbitmq.client.ShutdownSignalException: channel error; protocol method: #method<channel.close>(reply-code=404, reply-text=NOT_FOUND - no queue 'doc_message_update' in vhost '/', class-id=50, method-id=10)
+	at com.rabbitmq.client.impl.ChannelN.asyncShutdown(ChannelN.java:517)
+	at com.rabbitmq.client.impl.ChannelN.processAsync(ChannelN.java:341)
+	at com.rabbitmq.client.impl.AMQChannel.handleCompleteInboundCommand(AMQChannel.java:182)
+	at com.rabbitmq.client.impl.AMQChannel.handleFrame(AMQChannel.java:114)
+	at com.rabbitmq.client.impl.AMQConnection.readFrame(AMQConnection.java:739)
+	at com.rabbitmq.client.impl.AMQConnection.access$300(AMQConnection.java:47)
+	at com.rabbitmq.client.impl.AMQConnection$MainLoop.run(AMQConnection.java:666)
+	... 1 common frames omitted
+2025-12-05 23:30:19 ERROR o.s.a.r.l.SimpleMessageListenerContainer:1408 - Stopping container from aborted consumer
+2025-12-05 23:30:19 INFO  o.s.a.r.l.SimpleMessageListenerContainer:634 - Waiting for workers to finish.
+2025-12-05 23:30:19 INFO  o.s.a.r.l.SimpleMessageListenerContainer:637 - Successfully waited for workers to finish.
+2025-12-05 23:30:29 INFO  o.s.a.r.l.SimpleMessageListenerContainer:634 - Waiting for workers to finish.
+2025-12-05 23:30:29 INFO  o.s.a.r.l.SimpleMessageListenerContainer:637 - Successfully waited for workers to finish.
+2025-12-05 23:48:15 INFO  o.d.NodeApplication:55 - Starting NodeApplication using Java 17.0.11 on DESKTOP-QVVD2JF with PID 16016 (D:\JAVA\MyJava\BotStorage\node\target\classes started by rexar.ika in D:\JAVA\MyJava\BotStorage)
+2025-12-05 23:48:15 DEBUG o.d.NodeApplication:56 - Running with Spring Boot v2.5.2, Spring v5.3.8
+2025-12-05 23:48:15 INFO  o.d.NodeApplication:659 - No active profile set, falling back to default profiles: default
+2025-12-05 23:48:15 INFO  o.s.b.w.e.t.TomcatWebServer:108 - Tomcat initialized with port(s): 8083 (http)
+2025-12-05 23:48:15 INFO  o.a.c.h.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8083"]
+2025-12-05 23:48:15 INFO  o.a.c.c.StandardService:173 - Starting service [Tomcat]
+2025-12-05 23:48:15 INFO  o.a.c.c.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2025-12-05 23:48:15 INFO  o.a.c.c.C.[.[.[/]:173 - Initializing Spring embedded WebApplicationContext
+2025-12-05 23:48:15 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext:290 - Root WebApplicationContext: initialization completed in 532 ms
+2025-12-05 23:48:16 INFO  o.a.c.h.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8083"]
+2025-12-05 23:48:16 INFO  o.s.b.w.e.t.TomcatWebServer:220 - Tomcat started on port(s): 8083 (http) with context path ''
+2025-12-05 23:48:16 INFO  o.s.a.r.c.CachingConnectionFactory:638 - Attempting to connect to: [localhost:5672]
+2025-12-05 23:48:16 INFO  o.s.a.r.c.CachingConnectionFactory:589 - Created new connection: rabbitConnectionFactory#37ad042b:0/SimpleConnection@741ac284 [delegate=amqp://userok@127.0.0.1:5672/, localPort= 56141]
+2025-12-05 23:48:16 WARN  o.s.a.r.l.BlockingQueueConsumer:736 - Failed to declare queue: photo_message_update
+2025-12-05 23:48:16 WARN  o.s.a.r.l.BlockingQueueConsumer:670 - Queue declaration failed; retries left=3
+org.springframework.amqp.rabbit.listener.BlockingQueueConsumer$DeclarationException: Failed to declare queue(s):[photo_message_update]
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.attemptPassiveDeclarations(BlockingQueueConsumer.java:743)
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.passiveDeclarations(BlockingQueueConsumer.java:620)
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.start(BlockingQueueConsumer.java:607)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1348)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1193)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.io.IOException: null
+	at com.rabbitmq.client.impl.AMQChannel.wrap(AMQChannel.java:129)
+	at com.rabbitmq.client.impl.AMQChannel.wrap(AMQChannel.java:125)
+	at com.rabbitmq.client.impl.AMQChannel.exnWrappingRpc(AMQChannel.java:147)
+	at com.rabbitmq.client.impl.ChannelN.queueDeclarePassive(ChannelN.java:1012)
+	at com.rabbitmq.client.impl.ChannelN.queueDeclarePassive(ChannelN.java:46)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory$CachedChannelInvocationHandler.invoke(CachingConnectionFactory.java:1157)
+	at jdk.proxy2/jdk.proxy2.$Proxy65.queueDeclarePassive(Unknown Source)
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.attemptPassiveDeclarations(BlockingQueueConsumer.java:721)
+	... 5 common frames omitted
+Caused by: com.rabbitmq.client.ShutdownSignalException: channel error; protocol method: #method<channel.close>(reply-code=404, reply-text=NOT_FOUND - no queue 'photo_message_update' in vhost '/', class-id=50, method-id=10)
+	at com.rabbitmq.utility.ValueOrException.getValue(ValueOrException.java:66)
+	at com.rabbitmq.utility.BlockingValueOrException.uninterruptibleGetValue(BlockingValueOrException.java:36)
+	at com.rabbitmq.client.impl.AMQChannel$BlockingRpcContinuation.getReply(AMQChannel.java:502)
+	at com.rabbitmq.client.impl.AMQChannel.privateRpc(AMQChannel.java:293)
+	at com.rabbitmq.client.impl.AMQChannel.exnWrappingRpc(AMQChannel.java:141)
+	... 14 common frames omitted
+Caused by: com.rabbitmq.client.ShutdownSignalException: channel error; protocol method: #method<channel.close>(reply-code=404, reply-text=NOT_FOUND - no queue 'photo_message_update' in vhost '/', class-id=50, method-id=10)
+	at com.rabbitmq.client.impl.ChannelN.asyncShutdown(ChannelN.java:517)
+	at com.rabbitmq.client.impl.ChannelN.processAsync(ChannelN.java:341)
+	at com.rabbitmq.client.impl.AMQChannel.handleCompleteInboundCommand(AMQChannel.java:182)
+	at com.rabbitmq.client.impl.AMQChannel.handleFrame(AMQChannel.java:114)
+	at com.rabbitmq.client.impl.AMQConnection.readFrame(AMQConnection.java:739)
+	at com.rabbitmq.client.impl.AMQConnection.access$300(AMQConnection.java:47)
+	at com.rabbitmq.client.impl.AMQConnection$MainLoop.run(AMQConnection.java:666)
+	... 1 common frames omitted
+2025-12-05 23:48:21 WARN  o.s.a.r.l.BlockingQueueConsumer:736 - Failed to declare queue: photo_message_update
+2025-12-05 23:48:21 WARN  o.s.a.r.l.BlockingQueueConsumer:670 - Queue declaration failed; retries left=2
+org.springframework.amqp.rabbit.listener.BlockingQueueConsumer$DeclarationException: Failed to declare queue(s):[photo_message_update]
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.attemptPassiveDeclarations(BlockingQueueConsumer.java:743)
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.passiveDeclarations(BlockingQueueConsumer.java:620)
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.start(BlockingQueueConsumer.java:607)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1348)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1193)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.io.IOException: null
+	at com.rabbitmq.client.impl.AMQChannel.wrap(AMQChannel.java:129)
+	at com.rabbitmq.client.impl.AMQChannel.wrap(AMQChannel.java:125)
+	at com.rabbitmq.client.impl.AMQChannel.exnWrappingRpc(AMQChannel.java:147)
+	at com.rabbitmq.client.impl.ChannelN.queueDeclarePassive(ChannelN.java:1012)
+	at com.rabbitmq.client.impl.ChannelN.queueDeclarePassive(ChannelN.java:46)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory$CachedChannelInvocationHandler.invoke(CachingConnectionFactory.java:1157)
+	at jdk.proxy2/jdk.proxy2.$Proxy65.queueDeclarePassive(Unknown Source)
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.attemptPassiveDeclarations(BlockingQueueConsumer.java:721)
+	... 5 common frames omitted
+Caused by: com.rabbitmq.client.ShutdownSignalException: channel error; protocol method: #method<channel.close>(reply-code=404, reply-text=NOT_FOUND - no queue 'photo_message_update' in vhost '/', class-id=50, method-id=10)
+	at com.rabbitmq.utility.ValueOrException.getValue(ValueOrException.java:66)
+	at com.rabbitmq.utility.BlockingValueOrException.uninterruptibleGetValue(BlockingValueOrException.java:36)
+	at com.rabbitmq.client.impl.AMQChannel$BlockingRpcContinuation.getReply(AMQChannel.java:502)
+	at com.rabbitmq.client.impl.AMQChannel.privateRpc(AMQChannel.java:293)
+	at com.rabbitmq.client.impl.AMQChannel.exnWrappingRpc(AMQChannel.java:141)
+	... 14 common frames omitted
+Caused by: com.rabbitmq.client.ShutdownSignalException: channel error; protocol method: #method<channel.close>(reply-code=404, reply-text=NOT_FOUND - no queue 'photo_message_update' in vhost '/', class-id=50, method-id=10)
+	at com.rabbitmq.client.impl.ChannelN.asyncShutdown(ChannelN.java:517)
+	at com.rabbitmq.client.impl.ChannelN.processAsync(ChannelN.java:341)
+	at com.rabbitmq.client.impl.AMQChannel.handleCompleteInboundCommand(AMQChannel.java:182)
+	at com.rabbitmq.client.impl.AMQChannel.handleFrame(AMQChannel.java:114)
+	at com.rabbitmq.client.impl.AMQConnection.readFrame(AMQConnection.java:739)
+	at com.rabbitmq.client.impl.AMQConnection.access$300(AMQConnection.java:47)
+	at com.rabbitmq.client.impl.AMQConnection$MainLoop.run(AMQConnection.java:666)
+	... 1 common frames omitted
+2025-12-05 23:48:26 WARN  o.s.a.r.l.BlockingQueueConsumer:736 - Failed to declare queue: photo_message_update
+2025-12-05 23:48:26 WARN  o.s.a.r.l.BlockingQueueConsumer:670 - Queue declaration failed; retries left=1
+org.springframework.amqp.rabbit.listener.BlockingQueueConsumer$DeclarationException: Failed to declare queue(s):[photo_message_update]
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.attemptPassiveDeclarations(BlockingQueueConsumer.java:743)
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.passiveDeclarations(BlockingQueueConsumer.java:620)
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.start(BlockingQueueConsumer.java:607)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1348)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1193)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.io.IOException: null
+	at com.rabbitmq.client.impl.AMQChannel.wrap(AMQChannel.java:129)
+	at com.rabbitmq.client.impl.AMQChannel.wrap(AMQChannel.java:125)
+	at com.rabbitmq.client.impl.AMQChannel.exnWrappingRpc(AMQChannel.java:147)
+	at com.rabbitmq.client.impl.ChannelN.queueDeclarePassive(ChannelN.java:1012)
+	at com.rabbitmq.client.impl.ChannelN.queueDeclarePassive(ChannelN.java:46)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory$CachedChannelInvocationHandler.invoke(CachingConnectionFactory.java:1157)
+	at jdk.proxy2/jdk.proxy2.$Proxy65.queueDeclarePassive(Unknown Source)
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.attemptPassiveDeclarations(BlockingQueueConsumer.java:721)
+	... 5 common frames omitted
+Caused by: com.rabbitmq.client.ShutdownSignalException: channel error; protocol method: #method<channel.close>(reply-code=404, reply-text=NOT_FOUND - no queue 'photo_message_update' in vhost '/', class-id=50, method-id=10)
+	at com.rabbitmq.utility.ValueOrException.getValue(ValueOrException.java:66)
+	at com.rabbitmq.utility.BlockingValueOrException.uninterruptibleGetValue(BlockingValueOrException.java:36)
+	at com.rabbitmq.client.impl.AMQChannel$BlockingRpcContinuation.getReply(AMQChannel.java:502)
+	at com.rabbitmq.client.impl.AMQChannel.privateRpc(AMQChannel.java:293)
+	at com.rabbitmq.client.impl.AMQChannel.exnWrappingRpc(AMQChannel.java:141)
+	... 14 common frames omitted
+Caused by: com.rabbitmq.client.ShutdownSignalException: channel error; protocol method: #method<channel.close>(reply-code=404, reply-text=NOT_FOUND - no queue 'photo_message_update' in vhost '/', class-id=50, method-id=10)
+	at com.rabbitmq.client.impl.ChannelN.asyncShutdown(ChannelN.java:517)
+	at com.rabbitmq.client.impl.ChannelN.processAsync(ChannelN.java:341)
+	at com.rabbitmq.client.impl.AMQChannel.handleCompleteInboundCommand(AMQChannel.java:182)
+	at com.rabbitmq.client.impl.AMQChannel.handleFrame(AMQChannel.java:114)
+	at com.rabbitmq.client.impl.AMQConnection.readFrame(AMQConnection.java:739)
+	at com.rabbitmq.client.impl.AMQConnection.access$300(AMQConnection.java:47)
+	at com.rabbitmq.client.impl.AMQConnection$MainLoop.run(AMQConnection.java:666)
+	... 1 common frames omitted
+2025-12-05 23:48:31 WARN  o.s.a.r.l.BlockingQueueConsumer:736 - Failed to declare queue: photo_message_update
+2025-12-05 23:48:31 ERROR o.s.a.r.l.SimpleMessageListenerContainer:1205 - Consumer threw missing queues exception, fatal=true
+org.springframework.amqp.rabbit.listener.QueuesNotAvailableException: Cannot prepare queue for listener. Either the queue doesn't exist or the broker will not allow us to use it.
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.handleDeclarationException(BlockingQueueConsumer.java:693)
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.passiveDeclarations(BlockingQueueConsumer.java:627)
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.start(BlockingQueueConsumer.java:607)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1348)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1193)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: org.springframework.amqp.rabbit.listener.BlockingQueueConsumer$DeclarationException: Failed to declare queue(s):[photo_message_update]
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.attemptPassiveDeclarations(BlockingQueueConsumer.java:743)
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.passiveDeclarations(BlockingQueueConsumer.java:620)
+	... 4 common frames omitted
+Caused by: java.io.IOException: null
+	at com.rabbitmq.client.impl.AMQChannel.wrap(AMQChannel.java:129)
+	at com.rabbitmq.client.impl.AMQChannel.wrap(AMQChannel.java:125)
+	at com.rabbitmq.client.impl.AMQChannel.exnWrappingRpc(AMQChannel.java:147)
+	at com.rabbitmq.client.impl.ChannelN.queueDeclarePassive(ChannelN.java:1012)
+	at com.rabbitmq.client.impl.ChannelN.queueDeclarePassive(ChannelN.java:46)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory$CachedChannelInvocationHandler.invoke(CachingConnectionFactory.java:1157)
+	at jdk.proxy2/jdk.proxy2.$Proxy65.queueDeclarePassive(Unknown Source)
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.attemptPassiveDeclarations(BlockingQueueConsumer.java:721)
+	... 5 common frames omitted
+Caused by: com.rabbitmq.client.ShutdownSignalException: channel error; protocol method: #method<channel.close>(reply-code=404, reply-text=NOT_FOUND - no queue 'photo_message_update' in vhost '/', class-id=50, method-id=10)
+	at com.rabbitmq.utility.ValueOrException.getValue(ValueOrException.java:66)
+	at com.rabbitmq.utility.BlockingValueOrException.uninterruptibleGetValue(BlockingValueOrException.java:36)
+	at com.rabbitmq.client.impl.AMQChannel$BlockingRpcContinuation.getReply(AMQChannel.java:502)
+	at com.rabbitmq.client.impl.AMQChannel.privateRpc(AMQChannel.java:293)
+	at com.rabbitmq.client.impl.AMQChannel.exnWrappingRpc(AMQChannel.java:141)
+	... 14 common frames omitted
+Caused by: com.rabbitmq.client.ShutdownSignalException: channel error; protocol method: #method<channel.close>(reply-code=404, reply-text=NOT_FOUND - no queue 'photo_message_update' in vhost '/', class-id=50, method-id=10)
+	at com.rabbitmq.client.impl.ChannelN.asyncShutdown(ChannelN.java:517)
+	at com.rabbitmq.client.impl.ChannelN.processAsync(ChannelN.java:341)
+	at com.rabbitmq.client.impl.AMQChannel.handleCompleteInboundCommand(AMQChannel.java:182)
+	at com.rabbitmq.client.impl.AMQChannel.handleFrame(AMQChannel.java:114)
+	at com.rabbitmq.client.impl.AMQConnection.readFrame(AMQConnection.java:739)
+	at com.rabbitmq.client.impl.AMQConnection.access$300(AMQConnection.java:47)
+	at com.rabbitmq.client.impl.AMQConnection$MainLoop.run(AMQConnection.java:666)
+	... 1 common frames omitted
+2025-12-05 23:48:31 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:591 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'org.springframework.amqp.rabbit.config.internalRabbitListenerEndpointRegistry'; nested exception is org.springframework.amqp.AmqpIllegalStateException: Fatal exception on listener startup
+2025-12-05 23:48:31 INFO  o.s.a.r.l.SimpleMessageListenerContainer:634 - Waiting for workers to finish.
+2025-12-05 23:48:31 INFO  o.s.a.r.l.SimpleMessageListenerContainer:637 - Successfully waited for workers to finish.
+2025-12-05 23:48:31 ERROR o.s.a.r.l.SimpleMessageListenerContainer:1408 - Stopping container from aborted consumer

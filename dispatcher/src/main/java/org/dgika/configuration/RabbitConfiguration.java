@@ -6,7 +6,9 @@ import org.springframework.amqp.support.converter.MessageConverter;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-import static org.dgika.model.RabbitQueue.TEXT_MESSAGE_UPDATE;
+import javax.annotation.PostConstruct;
+
+import static org.dgika.model.RabbitQueue.*;
 
 @Configuration
 public class RabbitConfiguration {
@@ -18,5 +20,25 @@ public class RabbitConfiguration {
     @Bean
     public Queue textMessageQueue() {
         return new Queue(TEXT_MESSAGE_UPDATE);
+    }
+
+    @Bean
+    public Queue docMessageQueue() {
+        return new Queue(DOC_MESSAGE_UPDATE);
+    }
+
+    @Bean
+    public Queue PhotoMessageQueue() {
+        return new Queue(PHOTO_MESSAGE_UPDATE);
+    }
+
+    @Bean
+    public Queue answerMessageQueue() {
+        return new Queue(ANSWER_MESSAGE);
+    }
+
+    @PostConstruct
+    public void init() {
+        System.out.println(">>> RabbitConfiguration LOADED");
     }
 }

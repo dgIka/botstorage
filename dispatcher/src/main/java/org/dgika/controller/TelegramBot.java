@@ -26,14 +26,10 @@ public class TelegramBot extends TelegramLongPollingBot {
     private final UpdateController updateController;
 
 
-
     @PostConstruct
     public void init() {
         updateController.registerBot(this);
     }
-
-
-
 
 
     @Override
@@ -51,10 +47,9 @@ public class TelegramBot extends TelegramLongPollingBot {
         updateController.processUpdate(update);
 
 
-
     }
 
-    public void sendAnswerMessage(SendMessage message)  {
+    public void sendAnswerMessage(SendMessage message) {
         if (message != null) {
             try {
                 execute(message);

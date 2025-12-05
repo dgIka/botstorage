@@ -6,12 +6,9 @@
         <artifactId>BotStorage</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-    <artifactId>dispatcher</artifactId>
-
-    <properties>
-            <maven.compiler.soruce>11</maven.compiler.soruce>
-            <maven.compiler.target>11</maven.compiler.target>
-    </properties>
+    <artifactId>node</artifactId>
+    <name>Archetype - node</name>
+    <url>http://maven.apache.org</url>
 
     <dependencies>
         <dependency>
