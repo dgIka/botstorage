@@ -1,16 +1,166 @@
-2025-12-06 00:13:42 INFO  o.d.DispatcherApplication:55 - Starting DispatcherApplication using Java 17.0.11 on DESKTOP-QVVD2JF with PID 33148 (D:\JAVA\MyJava\BotStorage\dispatcher\target\classes started by rexar.ika in D:\JAVA\MyJava\BotStorage)
-2025-12-06 00:13:42 DEBUG o.d.DispatcherApplication:56 - Running with Spring Boot v2.5.2, Spring v5.3.8
-2025-12-06 00:13:42 INFO  o.d.DispatcherApplication:659 - No active profile set, falling back to default profiles: default
-2025-12-06 00:13:43 INFO  o.s.b.w.e.t.TomcatWebServer:108 - Tomcat initialized with port(s): 8082 (http)
-2025-12-06 00:13:43 INFO  o.a.c.h.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8082"]
-2025-12-06 00:13:43 INFO  o.a.c.c.StandardService:173 - Starting service [Tomcat]
-2025-12-06 00:13:43 INFO  o.a.c.c.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.48]
-2025-12-06 00:13:43 INFO  o.a.c.c.C.[.[.[/]:173 - Initializing Spring embedded WebApplicationContext
-2025-12-06 00:13:43 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext:290 - Root WebApplicationContext: initialization completed in 595 ms
-2025-12-06 00:13:43 INFO  o.a.c.h.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8082"]
-2025-12-06 00:13:43 INFO  o.s.b.w.e.t.TomcatWebServer:220 - Tomcat started on port(s): 8082 (http) with context path ''
-2025-12-06 00:13:43 INFO  o.d.DispatcherApplication:61 - Started DispatcherApplication in 1.572 seconds (JVM running for 1.946)
-2025-12-06 00:14:43 DEBUG o.d.s.i.UpdateProducerImpl:21 - Message(messageId=17, messageThreadId=null, from=User(id=293487042, firstName=Ираклий, isBot=false, lastName=null, userName=lrakliy, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null), date=1764969283, chat=Chat(id=293487042, type=private, title=null, firstName=Ираклий, lastName=null, userName=lrakliy, photo=null, description=null, inviteLink=null, pinnedMessage=null, stickerSetName=null, canSetStickerSet=null, permissions=null, slowModeDelay=null, bio=null, linkedChatId=null, location=null, messageAutoDeleteTime=null, hasPrivateForwards=null, HasProtectedContent=null, joinToSendMessages=null, joinByRequest=null, hasRestrictedVoiceAndVideoMessages=null, isForum=null, activeUsernames=null, emojiStatusCustomEmojiId=null, hasAggressiveAntiSpamEnabled=null, hasHiddenMembers=null), forwardFrom=null, forwardFromChat=null, forwardDate=null, text=123, entities=null, captionEntities=null, audio=null, document=null, photo=null, sticker=null, video=null, contact=null, location=null, venue=null, animation=null, pinnedMessage=null, newChatMembers=[], leftChatMember=null, newChatTitle=null, newChatPhoto=null, deleteChatPhoto=null, groupchatCreated=null, replyToMessage=null, voice=null, caption=null, superGroupCreated=null, channelChatCreated=null, migrateToChatId=null, migrateFromChatId=null, editDate=null, game=null, forwardFromMessageId=null, invoice=null, successfulPayment=null, videoNote=null, authorSignature=null, forwardSignature=null, mediaGroupId=null, connectedWebsite=null, passportData=null, forwardSenderName=null, poll=null, replyMarkup=null, dice=null, viaBot=null, senderChat=null, proximityAlertTriggered=null, messageAutoDeleteTimerChanged=null, isAutomaticForward=null, hasProtectedContent=null, webAppData=null, videoChatStarted=null, videoChatEnded=null, videoChatParticipantsInvited=null, videoChatScheduled=null, isTopicMessage=null, forumTopicCreated=null, forumTopicClosed=null, forumTopicReopened=null, forumTopicEdited=null, generalForumTopicHidden=null, generalForumTopicUnhidden=null, writeAccessAllowed=null, hasMediaSpoiler=null, userShared=null, chatShared=null)
-2025-12-06 00:14:43 INFO  o.s.a.r.c.CachingConnectionFactory:638 - Attempting to connect to: [localhost:5672]
-2025-12-06 00:14:44 INFO  o.s.a.r.c.CachingConnectionFactory:589 - Created new connection: rabbitConnectionFactory#41184371:0/SimpleConnection@7a5de62a [delegate=amqp://userok@127.0.0.1:5672/, localPort= 50291]
-2025-12-06 00:28:24 DEBUG o.d.s.i.UpdateProducerImpl:21 - Message(messageId=19, messageThreadId=null, from=User(id=293487042, firstName=Ираклий, isBot=false, lastName=null, userName=lrakliy, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null), date=1764970104, chat=Chat(id=293487042, type=private, title=null, firstName=Ираклий, lastName=null, userName=lrakliy, photo=null, description=null, inviteLink=null, pinnedMessage=null, stickerSetName=null, canSetStickerSet=null, permissions=null, slowModeDelay=null, bio=null, linkedChatId=null, location=null, messageAutoDeleteTime=null, hasPrivateForwards=null, HasProtectedContent=null, joinToSendMessages=null, joinByRequest=null, hasRestrictedVoiceAndVideoMessages=null, isForum=null, activeUsernames=null, emojiStatusCustomEmojiId=null, hasAggressiveAntiSpamEnabled=null, hasHiddenMembers=null), forwardFrom=null, forwardFromChat=null, forwardDate=null, text=хело, entities=null, captionEntities=null, audio=null, document=null, photo=null, sticker=null, video=null, contact=null, location=null, venue=null, animation=null, pinnedMessage=null, newChatMembers=[], leftChatMember=null, newChatTitle=null, newChatPhoto=null, deleteChatPhoto=null, groupchatCreated=null, replyToMessage=null, voice=null, caption=null, superGroupCreated=null, channelChatCreated=null, migrateToChatId=null, migrateFromChatId=null, editDate=null, game=null, forwardFromMessageId=null, invoice=null, successfulPayment=null, videoNote=null, authorSignature=null, forwardSignature=null, mediaGroupId=null, connectedWebsite=null, passportData=null, forwardSenderName=null, poll=null, replyMarkup=null, dice=null, viaBot=null, senderChat=null, proximityAlertTriggered=null, messageAutoDeleteTimerChanged=null, isAutomaticForward=null, hasProtectedContent=null, webAppData=null, videoChatStarted=null, videoChatEnded=null, videoChatParticipantsInvited=null, videoChatScheduled=null, isTopicMessage=null, forumTopicCreated=null, forumTopicClosed=null, forumTopicReopened=null, forumTopicEdited=null, generalForumTopicHidden=null, generalForumTopicUnhidden=null, writeAccessAllowed=null, hasMediaSpoiler=null, userShared=null, chatShared=null)
+2025-12-07 10:53:16 INFO  o.d.DispatcherApplication:55 - Starting DispatcherApplication using Java 17.0.11 on DESKTOP-QVVD2JF with PID 444 (D:\JAVA\MyJava\BotStorage\dispatcher\target\classes started by rexar.ika in D:\JAVA\MyJava\BotStorage)
+2025-12-07 10:53:16 DEBUG o.d.DispatcherApplication:56 - Running with Spring Boot v2.5.2, Spring v5.3.8
+2025-12-07 10:53:16 INFO  o.d.DispatcherApplication:659 - No active profile set, falling back to default profiles: default
+2025-12-07 10:53:16 INFO  o.s.b.w.e.t.TomcatWebServer:108 - Tomcat initialized with port(s): 8082 (http)
+2025-12-07 10:53:16 INFO  o.a.c.h.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8082"]
+2025-12-07 10:53:16 INFO  o.a.c.c.StandardService:173 - Starting service [Tomcat]
+2025-12-07 10:53:16 INFO  o.a.c.c.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2025-12-07 10:53:16 INFO  o.a.c.c.C.[.[.[/]:173 - Initializing Spring embedded WebApplicationContext
+2025-12-07 10:53:16 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext:290 - Root WebApplicationContext: initialization completed in 590 ms
+2025-12-07 10:53:17 INFO  o.a.c.h.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8082"]
+2025-12-07 10:53:17 INFO  o.s.b.w.e.t.TomcatWebServer:220 - Tomcat started on port(s): 8082 (http) with context path ''
+2025-12-07 10:53:17 INFO  o.s.a.r.c.CachingConnectionFactory:638 - Attempting to connect to: [localhost:5672]
+2025-12-07 10:53:17 INFO  o.s.a.r.l.SimpleMessageListenerContainer:1848 - Broker not available; cannot force queue declarations during start: java.net.ConnectException: Connection refused: no further information
+2025-12-07 10:53:17 INFO  o.s.a.r.c.CachingConnectionFactory:638 - Attempting to connect to: [localhost:5672]
+2025-12-07 10:53:17 ERROR o.s.a.r.l.SimpleMessageListenerContainer:1899 - Failed to check/redeclare auto-delete queue(s).
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:61)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:602)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:724)
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:216)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2167)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2140)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2120)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueInfo(RabbitAdmin.java:407)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:391)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.attemptDeclarations(AbstractMessageListenerContainer.java:1912)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1893)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1347)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1193)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:547)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:602)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:60)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1220)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1170)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connectAddresses(AbstractConnectionFactory.java:640)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connect(AbstractConnectionFactory.java:615)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:565)
+	... 12 common frames omitted
+2025-12-07 10:53:17 INFO  o.s.a.r.c.CachingConnectionFactory:638 - Attempting to connect to: [localhost:5672]
+2025-12-07 10:53:17 INFO  o.d.DispatcherApplication:61 - Started DispatcherApplication in 1.801 seconds (JVM running for 2.228)
+2025-12-07 10:53:22 WARN  o.s.a.r.l.SimpleMessageListenerContainer:1450 - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2025-12-07 10:53:22 INFO  o.s.a.r.l.SimpleMessageListenerContainer:1429 - Restarting Consumer@3c33fcf8: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2025-12-07 10:53:22 INFO  o.s.a.r.c.CachingConnectionFactory:638 - Attempting to connect to: [localhost:5672]
+2025-12-07 10:53:22 ERROR o.s.a.r.l.SimpleMessageListenerContainer:1899 - Failed to check/redeclare auto-delete queue(s).
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:61)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:602)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:724)
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:216)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2167)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2140)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2120)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueInfo(RabbitAdmin.java:407)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:391)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.attemptDeclarations(AbstractMessageListenerContainer.java:1912)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1893)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1347)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1193)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:547)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:602)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:60)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1220)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1170)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connectAddresses(AbstractConnectionFactory.java:640)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connect(AbstractConnectionFactory.java:615)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:565)
+	... 12 common frames omitted
+2025-12-07 10:53:22 INFO  o.s.a.r.c.CachingConnectionFactory:638 - Attempting to connect to: [localhost:5672]
+2025-12-07 10:53:27 WARN  o.s.a.r.l.SimpleMessageListenerContainer:1450 - Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+2025-12-07 10:53:27 INFO  o.s.a.r.l.SimpleMessageListenerContainer:1429 - Restarting Consumer@1817ffac: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2025-12-07 10:53:27 INFO  o.s.a.r.c.CachingConnectionFactory:638 - Attempting to connect to: [localhost:5672]
+2025-12-07 10:53:27 ERROR o.s.a.r.l.SimpleMessageListenerContainer:1899 - Failed to check/redeclare auto-delete queue(s).
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:61)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:602)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:724)
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:216)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2167)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2140)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2120)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueInfo(RabbitAdmin.java:407)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:391)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.attemptDeclarations(AbstractMessageListenerContainer.java:1912)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1893)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1347)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1193)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:547)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:602)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:60)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1220)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1170)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connectAddresses(AbstractConnectionFactory.java:640)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connect(AbstractConnectionFactory.java:615)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:565)
+	... 12 common frames omitted
+2025-12-07 10:53:27 INFO  o.s.a.r.c.CachingConnectionFactory:638 - Attempting to connect to: [localhost:5672]
+2025-12-07 10:53:31 INFO  o.s.a.r.l.SimpleMessageListenerContainer:634 - Waiting for workers to finish.
+2025-12-07 10:53:31 INFO  o.s.a.r.l.SimpleMessageListenerContainer:637 - Successfully waited for workers to finish.
+2025-12-07 10:53:51 INFO  o.d.DispatcherApplication:55 - Starting DispatcherApplication using Java 17.0.11 on DESKTOP-QVVD2JF with PID 14620 (D:\JAVA\MyJava\BotStorage\dispatcher\target\classes started by rexar.ika in D:\JAVA\MyJava\BotStorage)
+2025-12-07 10:53:51 DEBUG o.d.DispatcherApplication:56 - Running with Spring Boot v2.5.2, Spring v5.3.8
+2025-12-07 10:53:51 INFO  o.d.DispatcherApplication:659 - No active profile set, falling back to default profiles: default
+2025-12-07 10:53:51 INFO  o.s.b.w.e.t.TomcatWebServer:108 - Tomcat initialized with port(s): 8082 (http)
+2025-12-07 10:53:51 INFO  o.a.c.h.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8082"]
+2025-12-07 10:53:51 INFO  o.a.c.c.StandardService:173 - Starting service [Tomcat]
+2025-12-07 10:53:51 INFO  o.a.c.c.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2025-12-07 10:53:52 INFO  o.a.c.c.C.[.[.[/]:173 - Initializing Spring embedded WebApplicationContext
+2025-12-07 10:53:52 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext:290 - Root WebApplicationContext: initialization completed in 547 ms
+2025-12-07 10:53:52 INFO  o.a.c.h.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8082"]
+2025-12-07 10:53:52 INFO  o.s.b.w.e.t.TomcatWebServer:220 - Tomcat started on port(s): 8082 (http) with context path ''
+2025-12-07 10:53:52 INFO  o.s.a.r.c.CachingConnectionFactory:638 - Attempting to connect to: [localhost:5672]
+2025-12-07 10:53:52 INFO  o.s.a.r.c.CachingConnectionFactory:589 - Created new connection: rabbitConnectionFactory#74e6094b:0/SimpleConnection@640d604 [delegate=amqp://userok@127.0.0.1:5672/, localPort= 64007]
+2025-12-07 10:53:52 INFO  o.d.DispatcherApplication:61 - Started DispatcherApplication in 1.577 seconds (JVM running for 1.951)
+2025-12-07 10:55:12 DEBUG o.d.s.i.UpdateProducerImpl:21 - Message(messageId=27, messageThreadId=null, from=User(id=293487042, firstName=Ираклий, isBot=false, lastName=null, userName=lrakliy, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null), date=1765094110, chat=Chat(id=293487042, type=private, title=null, firstName=Ираклий, lastName=null, userName=lrakliy, photo=null, description=null, inviteLink=null, pinnedMessage=null, stickerSetName=null, canSetStickerSet=null, permissions=null, slowModeDelay=null, bio=null, linkedChatId=null, location=null, messageAutoDeleteTime=null, hasPrivateForwards=null, HasProtectedContent=null, joinToSendMessages=null, joinByRequest=null, hasRestrictedVoiceAndVideoMessages=null, isForum=null, activeUsernames=null, emojiStatusCustomEmojiId=null, hasAggressiveAntiSpamEnabled=null, hasHiddenMembers=null), forwardFrom=null, forwardFromChat=null, forwardDate=null, text=Hello from chat, entities=null, captionEntities=null, audio=null, document=null, photo=null, sticker=null, video=null, contact=null, location=null, venue=null, animation=null, pinnedMessage=null, newChatMembers=[], leftChatMember=null, newChatTitle=null, newChatPhoto=null, deleteChatPhoto=null, groupchatCreated=null, replyToMessage=null, voice=null, caption=null, superGroupCreated=null, channelChatCreated=null, migrateToChatId=null, migrateFromChatId=null, editDate=null, game=null, forwardFromMessageId=null, invoice=null, successfulPayment=null, videoNote=null, authorSignature=null, forwardSignature=null, mediaGroupId=null, connectedWebsite=null, passportData=null, forwardSenderName=null, poll=null, replyMarkup=null, dice=null, viaBot=null, senderChat=null, proximityAlertTriggered=null, messageAutoDeleteTimerChanged=null, isAutomaticForward=null, hasProtectedContent=null, webAppData=null, videoChatStarted=null, videoChatEnded=null, videoChatParticipantsInvited=null, videoChatScheduled=null, isTopicMessage=null, forumTopicCreated=null, forumTopicClosed=null, forumTopicReopened=null, forumTopicEdited=null, generalForumTopicHidden=null, generalForumTopicUnhidden=null, writeAccessAllowed=null, hasMediaSpoiler=null, userShared=null, chatShared=null)
+2025-12-07 10:57:48 INFO  o.s.a.r.l.SimpleMessageListenerContainer:634 - Waiting for workers to finish.
+2025-12-07 10:57:48 INFO  o.s.a.r.l.SimpleMessageListenerContainer:637 - Successfully waited for workers to finish.
+2025-12-07 10:57:50 INFO  o.d.DispatcherApplication:55 - Starting DispatcherApplication using Java 17.0.11 on DESKTOP-QVVD2JF with PID 25916 (D:\JAVA\MyJava\BotStorage\dispatcher\target\classes started by rexar.ika in D:\JAVA\MyJava\BotStorage)
+2025-12-07 10:57:50 DEBUG o.d.DispatcherApplication:56 - Running with Spring Boot v2.5.2, Spring v5.3.8
+2025-12-07 10:57:50 INFO  o.d.DispatcherApplication:659 - No active profile set, falling back to default profiles: default
+2025-12-07 10:57:51 INFO  o.s.b.w.e.t.TomcatWebServer:108 - Tomcat initialized with port(s): 8082 (http)
+2025-12-07 10:57:51 INFO  o.a.c.h.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8082"]
+2025-12-07 10:57:51 INFO  o.a.c.c.StandardService:173 - Starting service [Tomcat]
+2025-12-07 10:57:51 INFO  o.a.c.c.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2025-12-07 10:57:51 INFO  o.a.c.c.C.[.[.[/]:173 - Initializing Spring embedded WebApplicationContext
+2025-12-07 10:57:51 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext:290 - Root WebApplicationContext: initialization completed in 600 ms
+2025-12-07 10:57:52 INFO  o.a.c.h.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8082"]
+2025-12-07 10:57:52 INFO  o.s.b.w.e.t.TomcatWebServer:220 - Tomcat started on port(s): 8082 (http) with context path ''
+2025-12-07 10:57:52 INFO  o.s.a.r.c.CachingConnectionFactory:638 - Attempting to connect to: [localhost:5672]
+2025-12-07 10:57:52 INFO  o.s.a.r.c.CachingConnectionFactory:589 - Created new connection: rabbitConnectionFactory#787508ca:0/SimpleConnection@4eeb14e0 [delegate=amqp://userok@127.0.0.1:5672/, localPort= 65207]
+2025-12-07 10:57:52 INFO  o.d.DispatcherApplication:61 - Started DispatcherApplication in 1.747 seconds (JVM running for 2.525)
+2025-12-07 10:58:17 DEBUG o.d.s.i.UpdateProducerImpl:21 - Message(messageId=29, messageThreadId=null, from=User(id=293487042, firstName=Ираклий, isBot=false, lastName=null, userName=lrakliy, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null), date=1765094295, chat=Chat(id=293487042, type=private, title=null, firstName=Ираклий, lastName=null, userName=lrakliy, photo=null, description=null, inviteLink=null, pinnedMessage=null, stickerSetName=null, canSetStickerSet=null, permissions=null, slowModeDelay=null, bio=null, linkedChatId=null, location=null, messageAutoDeleteTime=null, hasPrivateForwards=null, HasProtectedContent=null, joinToSendMessages=null, joinByRequest=null, hasRestrictedVoiceAndVideoMessages=null, isForum=null, activeUsernames=null, emojiStatusCustomEmojiId=null, hasAggressiveAntiSpamEnabled=null, hasHiddenMembers=null), forwardFrom=null, forwardFromChat=null, forwardDate=null, text=Привееееееееееееееее, entities=null, captionEntities=null, audio=null, document=null, photo=null, sticker=null, video=null, contact=null, location=null, venue=null, animation=null, pinnedMessage=null, newChatMembers=[], leftChatMember=null, newChatTitle=null, newChatPhoto=null, deleteChatPhoto=null, groupchatCreated=null, replyToMessage=null, voice=null, caption=null, superGroupCreated=null, channelChatCreated=null, migrateToChatId=null, migrateFromChatId=null, editDate=null, game=null, forwardFromMessageId=null, invoice=null, successfulPayment=null, videoNote=null, authorSignature=null, forwardSignature=null, mediaGroupId=null, connectedWebsite=null, passportData=null, forwardSenderName=null, poll=null, replyMarkup=null, dice=null, viaBot=null, senderChat=null, proximityAlertTriggered=null, messageAutoDeleteTimerChanged=null, isAutomaticForward=null, hasProtectedContent=null, webAppData=null, videoChatStarted=null, videoChatEnded=null, videoChatParticipantsInvited=null, videoChatScheduled=null, isTopicMessage=null, forumTopicCreated=null, forumTopicClosed=null, forumTopicReopened=null, forumTopicEdited=null, generalForumTopicHidden=null, generalForumTopicUnhidden=null, writeAccessAllowed=null, hasMediaSpoiler=null, userShared=null, chatShared=null)
+2025-12-07 11:25:14 INFO  o.s.a.r.l.SimpleMessageListenerContainer:634 - Waiting for workers to finish.
+2025-12-07 11:25:14 INFO  o.s.a.r.l.SimpleMessageListenerContainer:637 - Successfully waited for workers to finish.
+2025-12-07 11:46:38 INFO  o.d.DispatcherApplication:55 - Starting DispatcherApplication using Java 17.0.11 on DESKTOP-QVVD2JF with PID 24864 (D:\JAVA\MyJava\BotStorage\dispatcher\target\classes started by rexar.ika in D:\JAVA\MyJava\BotStorage)
+2025-12-07 11:46:38 DEBUG o.d.DispatcherApplication:56 - Running with Spring Boot v2.5.2, Spring v5.3.8
+2025-12-07 11:46:38 INFO  o.d.DispatcherApplication:659 - No active profile set, falling back to default profiles: default
+2025-12-07 11:46:38 INFO  o.s.b.w.e.t.TomcatWebServer:108 - Tomcat initialized with port(s): 8082 (http)
+2025-12-07 11:46:38 INFO  o.a.c.h.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8082"]
+2025-12-07 11:46:38 INFO  o.a.c.c.StandardService:173 - Starting service [Tomcat]
+2025-12-07 11:46:38 INFO  o.a.c.c.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2025-12-07 11:46:38 INFO  o.a.c.c.C.[.[.[/]:173 - Initializing Spring embedded WebApplicationContext
+2025-12-07 11:46:38 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext:290 - Root WebApplicationContext: initialization completed in 658 ms
+2025-12-07 11:46:39 INFO  o.a.c.h.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8082"]
+2025-12-07 11:46:39 INFO  o.s.b.w.e.t.TomcatWebServer:220 - Tomcat started on port(s): 8082 (http) with context path ''
+2025-12-07 11:46:39 INFO  o.s.a.r.c.CachingConnectionFactory:638 - Attempting to connect to: [localhost:5672]
+2025-12-07 11:46:39 INFO  o.s.a.r.c.CachingConnectionFactory:589 - Created new connection: rabbitConnectionFactory#7fb53256:0/SimpleConnection@5c234920 [delegate=amqp://userok@127.0.0.1:5672/, localPort= 53076]
+2025-12-07 11:46:39 INFO  o.d.DispatcherApplication:61 - Started DispatcherApplication in 1.954 seconds (JVM running for 2.427)
+2025-12-07 16:03:32 INFO  o.s.a.r.l.SimpleMessageListenerContainer:634 - Waiting for workers to finish.
+2025-12-07 16:03:32 INFO  o.s.a.r.l.SimpleMessageListenerContainer:637 - Successfully waited for workers to finish.
